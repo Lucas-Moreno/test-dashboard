@@ -1,0 +1,39 @@
+.title{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    text-align:center;
+    margin-bottom:10vh;
+    margin-top:5vh;
+}
+.container{
+    display:flex;
+    justify-content: space-around;
+    height:50vh;
+}
+.results{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.compare{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;  
+    color: #000000;
+    
+}
+.return{
+    position:absolute;
+    bottom: 5%;
+    right: 5%;
+    font-size: 18px;
+    line-height: 21px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 125px;
+    height: 38px;
+}

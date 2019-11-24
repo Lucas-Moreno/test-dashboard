@@ -1,0 +1,64 @@
+.box{
+    display:flex;
+    background: #E5E5E5;
+}
+.nav{
+    width:25vw;
+    height:100vh;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+.nav__title{
+    font-size: 32px;
+    margin:40px 0px 30px 20px;
+}
+.nav__subtitle{
+    font-size: 18px;
+    margin-left:20px;
+}
+.nav__list{
+    margin:40px 0px 30px 20px;
+    height:75vh;
+    overflow-y:auto;
+}
+.nav__list li{
+    padding-bottom:20px;
+    margin-left:20px;
+    list-style: initial;
+}
+.dashboard{
+    width:100vw;
+    position: relative;
+}
+.dashboard__title{
+    font-size: 24px;
+    margin:40px 0px 30px 30px;
+}
+.dashboard__input{
+    width: 416px;
+    height: 38px;
+    background-color: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    margin-left:30px;
+    margin-right:20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.dashboard__button{
+    width: 125px;
+    height: 38px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    color: #000000;
+}
+.button__dashboard{
+    position: absolute;
+    bottom:5%;
+    width: 293px;
+    height: 38px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-size: 18px;
+    color: #000000;
+}
